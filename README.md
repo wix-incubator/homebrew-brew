@@ -15,7 +15,7 @@ Once homebrew is installed, simply run:
 
     brew tap wix/brew
 
-Some of these formulae may require OS X 10.11 (El Capitan) or higher.
+These formulae require OS X 10.12 (Sierra) or higher.
 
 
 Use
@@ -26,19 +26,19 @@ may wish to run `brew update` before hand to get the latest version of the
 formulae. For example, to install the latest version of the Apple simulator utilities:
 
     brew update
-    brew install --HEAD applesimutils
+    brew install wix/brew/applesimutils
 
 To upgrade software:
 
     brew update
     brew upgrade    # upgrade all software installed with Homebrew
-    brew upgrade applesimutils   # update just the thrift compiler
+    brew upgrade applesimutils   # update just applesimutils
 
 
 Contributing
 ------------
 
-Please file bug reports and feature requests as GitHub issues against the individual project, not this repository - however, we do accept pull requests here.
+Please file bug reports and feature requests as GitHub issues against the individual project, not this repository—however, we do accept pull requests here.
 
 To do development on these formulae, first fork the repository on GitHub. Add
 your fork as a remote to your local clone:
