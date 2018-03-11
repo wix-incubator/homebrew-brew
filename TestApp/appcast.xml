@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="1.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Test App</title>
+    <link>https://raw.githubusercontent.com/wix/homebrew-brew/master/TestApp/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+      <item>
+        <title>Version 1.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
+              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+            </ul>
+          ]]>
+        </description>
+        <pubDate>Sat, 26 Jul 2018 15:20:11 +0000</pubDate>
+        <enclosure url="https://raw.githubusercontent.com/wix/homebrew-brew/master/TestApp/TestApp.1.1.zip" sparkle:version="2" sparkle:shortVersionString="1.1" length="1508012" type="application/octet-stream" />
+      </item>
+  </channel>
+</rss>
