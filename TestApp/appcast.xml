@@ -10,15 +10,13 @@
         <description>
           <![CDATA[
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
-              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+              <li>A feature being developed in less than 21 days.</li>
+              <li>A very important feature for our customers.</li>
             </ul>
           ]]>
         </description>
         <pubDate>Sat, 26 Jul 2018 15:20:11 +0000</pubDate>
-        <enclosure url="https://raw.githubusercontent.com/wix/homebrew-brew/master/TestApp/TestApp.1.1.zip" sparkle:version="2" sparkle:shortVersionString="1.1" length="1508012" type="application/octet-stream" />
+        <enclosure url="https://raw.githubusercontent.com/wix/homebrew-brew/master/TestApp/TestApp.1.1.zip" sparkle:version="2" sparkle:shortVersionString="1.1" length="1508847" type="application/octet-stream" />
       </item>
   </channel>
 </rss>
