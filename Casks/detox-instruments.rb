@@ -6,5 +6,7 @@ cask 'detox-instruments' do
   name 'Detox Instruments'
   homepage 'https://github.com/wix/DetoxInstruments'
 
+  depends_on macos: '>= :high_sierra'
+  
   app 'Detox Instruments.app'
 end
