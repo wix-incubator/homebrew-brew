@@ -2,7 +2,7 @@ cask 'detox-instruments' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/wix/DetoxInstruments/releases/download/0.9.1.6378/DetoxInstruments-v0.9.1.b6378.zip'
+  url 'https://github.com/wix/DetoxInstruments/releases/download/1.0.7056/DetoxInstruments-v1.0.b7056.zip'
   name 'Detox Instruments'
   homepage 'https://github.com/wix/DetoxInstruments'
 
