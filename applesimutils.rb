@@ -2,7 +2,7 @@ class Applesimutils < Formula
   desc 'Apple simulator utilities'
   homepage 'https://github.com/wix/AppleSimulatorUtils'
   url 'https://raw.githubusercontent.com/wix/homebrew-brew/master/AppleSimulatorUtils-0.6.3.tar.gz'
-  sha256 '7e8542606c6a60784428c7ad23f26bc678fd2f493e93db52fcf05710ae9bb632'
+  sha256 '68821129ee2851d0e365baf3cdd723f64a4b4512b1e375211fd98cd3d03fab2e'
   head 'https://github.com/wix/AppleSimulatorUtils.git'
 
   depends_on xcode: ['8.3', :build]
