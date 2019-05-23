@@ -9,7 +9,7 @@ class Applesimutils < Formula
   
   bottle do
     root_url "https://github.com/wix/AppleSimulatorUtils/releases/download/0.6.4"
-    sha256 "99fe0a7b0670eb54c3acf388ec03c883ffcb1ca4faa8d0c839f033584f79a3f7" => :mojave
+    sha256 "0f724424a0ce62e2b296a228f2a54372840af587cc904065b8c9db6bea65ca88" => :mojave
   end
 
   def install
