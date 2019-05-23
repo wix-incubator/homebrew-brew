@@ -5,7 +5,7 @@ class Applesimutils < Formula
   sha256 '7b32c84b4284b459dbe74a3076b7f8694b9f18dea023a2d99e2b32c6e67edd00'
   head 'https://github.com/wix/AppleSimulatorUtils.git'
 
-  depends_on xcode: ['8.3', :build]
+  depends_on xcode: ['10.0', :build]
 
   def install
     system './buildForBrew.sh', prefix
