@@ -1,15 +1,15 @@
 class Applesimutils < Formula
   desc 'Apple simulator utilities'
   homepage 'https://github.com/wix/AppleSimulatorUtils'
-  url 'https://raw.githubusercontent.com/wix/homebrew-brew/master/AppleSimulatorUtils-0.6.4.tar.gz'
-  sha256 '7b32c84b4284b459dbe74a3076b7f8694b9f18dea023a2d99e2b32c6e67edd00'
+  url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.6.5/AppleSimulatorUtils-0.6.5.tar.gz'
+  sha256 'f5f106d5d325acf1c4b2a5d9cc8514d182fba86f2944acb6c4eb3f2157432a96'
   head 'https://github.com/wix/AppleSimulatorUtils.git'
 
   depends_on xcode: ['10.0', :build]
   
   bottle do
-    root_url "https://github.com/wix/AppleSimulatorUtils/releases/download/0.6.4"
-    sha256 "0f724424a0ce62e2b296a228f2a54372840af587cc904065b8c9db6bea65ca88" => :mojave
+    root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.6.5'
+    sha256 '915e7c6e901d69db7c93976e248e0f16ff43b4f1d70a4d7ab66f0123e474e961' => :mojave
   end
 
   def install
