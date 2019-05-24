@@ -1,11 +1,9 @@
-Wix Homebrew Tap
-=====================
+# Wix Homebrew Tap
 
 This is a [Homebrew][brew] tap for formulae for software developed by Wix.
 
 
-Setup
------
+## Setup
 
 Using these formulae requires Homebrew, which in turn requires Xcode. If you
 have not yet installed Homebrew, a quick summary is at the end of this
@@ -13,48 +11,45 @@ document.
 
 Once homebrew is installed, simply run:
 
-    brew tap wix/brew
+```shell
+brew tap wix/brew
+```
 
-These formulae require OS X 10.12 (Sierra) or higher.
-
-
-Use
----
+## Use
 
 To install software, just use `brew install` with the name of the formula. You
 may wish to run `brew update` before hand to get the latest version of the
 formulae. For example, to install the latest version of the Apple simulator utilities:
 
-    brew update
-    brew install wix/brew/applesimutils
+```shell
+brew tap wix/brew
+brew update
+brew install wix/applesimutils
+```
 
 To upgrade software:
 
-    brew update
-    brew upgrade    # upgrade all software installed with Homebrew
-    brew upgrade applesimutils   # update just applesimutils
+```shell
+brew update
+# update just applesimutils
+brew upgrade applesimutils
+# or,
+# upgrade all software installed with Homebrew
+brew upgrade
+```
 
+## Troubleshooting
 
-Contributing
-------------
+- In case an installation fails, make sure to update your command line tools in the System Update system prefernce pane of your Mac
+- If Homebrew complains about a conflict in the `wix/brew` tap, run `brew untap wix/brew && brew tap wix/brew` and try installing again
+- If installation still fails, **run `brew doctor` and fix all issues & warnings**
 
-Please file bug reports and feature requests as GitHub issues against the individual project, not this repository—however, we do accept pull requests here.
+## Contributing
 
-To do development on these formulae, first fork the repository on GitHub. Add
-your fork as a remote to your local clone:
+Please file bug reports and/or enhancement requests as GitHub issues of the individual projects, not this repository.
 
-    cd $(brew --prefix)/Library/Taps/wix/homebrew-brew
-    git remote add me git@github.com:YOUR_GITHUB_USERNAME/homebrew-brew.git
-    git fetch me
+## References
 
-To propose changes, push to your fork (e.g. with `git push me +master`) and
-submit pull request on GitHub.
-
-We follow Homebrew's [standard coding style][style].
-
-
-References
-----------
 `brew help`, `man brew`, or the Homebrew [documentation][].
 
 [brew]: http://brew.sh/
