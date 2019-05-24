@@ -5,11 +5,13 @@ class Applesimutils < Formula
   sha256 'bfab0b18fd0b3e46600482f43754cc8ed5e21fdf2f56f2e43e7031e64239d5cc'
   head 'https://github.com/wix/AppleSimulatorUtils.git'
 
-  depends_on xcode: ['10.0', :build]
+  depends_on xcode: ['8.0', :build]
   
   bottle do
     root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.6.5'
     sha256 '0fd0a6e71e78d998a5ec390a755d12012ffb9247490b80e27a81bcc88d83f4a8' => :mojave
+    sha256 '0fd0a6e71e78d998a5ec390a755d12012ffb9247490b80e27a81bcc88d83f4a8' => :high_sierra
+    sha256 '0fd0a6e71e78d998a5ec390a755d12012ffb9247490b80e27a81bcc88d83f4a8' => :sierra
   end
 
   def install
