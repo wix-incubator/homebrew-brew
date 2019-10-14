@@ -9,6 +9,7 @@ class Applesimutils < Formula
   
   bottle do
     root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.7.3'
+    sha256 'bf1ec443533904336ec5e0c7dcfdec420ec5974bf358a339097063441df3058a' => :catalina
     sha256 'bf1ec443533904336ec5e0c7dcfdec420ec5974bf358a339097063441df3058a' => :mojave
     sha256 'bf1ec443533904336ec5e0c7dcfdec420ec5974bf358a339097063441df3058a' => :high_sierra
     sha256 'bf1ec443533904336ec5e0c7dcfdec420ec5974bf358a339097063441df3058a' => :sierra
