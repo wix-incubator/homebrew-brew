@@ -1,18 +1,18 @@
 class Applesimutils < Formula
   desc 'Apple simulator utilities'
   homepage 'https://github.com/wix/AppleSimulatorUtils'
-  url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.7.8/AppleSimulatorUtils-0.7.8.tar.gz'
-  sha256 '334a1e411f577417b135727648d3577208f5a4f53f6794b1962346c43c4d3885'
+  url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.8/AppleSimulatorUtils-0.8.tar.gz'
+  sha256 '265430ca2474b64397594dc1ccc664b7522460f764aafa7255bbb627d55e8df7'
   head 'https://github.com/wix/AppleSimulatorUtils.git'
 
   depends_on xcode: ['8.0', :build]
   
   bottle do
-    root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.7.8'
-    sha256 '7b8dbaa8a3da1f63788bd11bbf149fc6d17f4f605692cbb3f6b553350a080b5f' => :catalina
-    sha256 '7b8dbaa8a3da1f63788bd11bbf149fc6d17f4f605692cbb3f6b553350a080b5f' => :mojave
-    sha256 '7b8dbaa8a3da1f63788bd11bbf149fc6d17f4f605692cbb3f6b553350a080b5f' => :high_sierra
-    sha256 '7b8dbaa8a3da1f63788bd11bbf149fc6d17f4f605692cbb3f6b553350a080b5f' => :sierra
+    root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.8'
+    sha256 '2031d87663316fe7a668fd7b432c8d9ca370a2c86bcf48745d22fedb6890d151' => :catalina
+    sha256 '2031d87663316fe7a668fd7b432c8d9ca370a2c86bcf48745d22fedb6890d151' => :mojave
+    sha256 '2031d87663316fe7a668fd7b432c8d9ca370a2c86bcf48745d22fedb6890d151' => :high_sierra
+    sha256 '2031d87663316fe7a668fd7b432c8d9ca370a2c86bcf48745d22fedb6890d151' => :sierra
   end
 
   def install
