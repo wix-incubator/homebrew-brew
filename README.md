@@ -24,7 +24,7 @@ formulae. For example, to install the latest version of the Apple simulator util
 ```shell
 brew tap wix/brew
 brew update
-brew install wix/applesimutils
+brew install applesimutils
 ```
 
 To upgrade software:
