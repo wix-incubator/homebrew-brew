@@ -10,12 +10,12 @@ class Applesimutils < Formula
 
   bottle do
     root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.9.4'
-    sha256 arm64_big_sur: "6aabffa1093ac8f4ea77afd4f27ec7d7ace3fe5230edd53118b078f250d39e73"
-    sha256 catalina:      "542c1acbf6b4518a85260a30edf7204b322f11f745d2e5ce033f87925ec42763"
-    sha256 mojave:        "542c1acbf6b4518a85260a30edf7204b322f11f745d2e5ce033f87925ec42763"
-    sha256 high_sierra:   "6aabffa1093ac8f4ea77afd4f27ec7d7ace3fe5230edd53118b078f250d39e73"
-    sha256 sierra:        "6aabffa1093ac8f4ea77afd4f27ec7d7ace3fe5230edd53118b078f250d39e73"
-    sha256 big_sur:       "6aabffa1093ac8f4ea77afd4f27ec7d7ace3fe5230edd53118b078f250d39e73"
+    sha256 arm64_big_sur: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 catalina:      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 mojave:        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 high_sierra:   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 sierra:        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 big_sur:       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   end
 
   depends_on xcode: ["8.0", :build]
