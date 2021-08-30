@@ -3,7 +3,7 @@ class Supraworker < Formula
   homepage ""
   url "https://github.com/weldpua2008/supraworker/releases/download/v0.4.4/supraworker_darwin_amd64.zip"
   license "Apache-2.0"
-  version :latest
+  version "0.4.4"
   sha256 :no_check
 
   bottle :unneeded
