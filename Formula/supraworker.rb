@@ -6,7 +6,6 @@ class Supraworker < Formula
   version "0.4.4"
   sha256 "f5ee45f8f1dd4c61a7ea668bd74167b3629c83a188d953f19ab985c08b24dbf2"
 
-  bottle :unneeded
   conflicts_with "supraworker"
 
   def install
