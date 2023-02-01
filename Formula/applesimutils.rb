@@ -4,12 +4,12 @@
 class Applesimutils < Formula
   desc "Apple simulator utilities"
   homepage "https://github.com/wix/AppleSimulatorUtils"
-  url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.9.8/AppleSimulatorUtils-0.9.8.tar.gz'
-  sha256 '251524acb6372b7accfa443755b6803401e460192e95dac9883a5275bb0b859e'
+  url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.9.9/AppleSimulatorUtils-0.9.9.tar.gz'
+  sha256 '14335b85a634708a16b8c9645aba3e189dd4206e41b45c73f78ee85c6f229c73'
   head "https://github.com/wix/AppleSimulatorUtils.git"
 
   bottle do
-    root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.9.8'
+    root_url 'https://github.com/wix/AppleSimulatorUtils/releases/download/0.9.9'
 
     sha256 arm64_big_sur: "7ecf43c5a6849a1c78c085c2ef59be1d2d872ab5a97b0327d882843a3c5ea9b4"
     sha256 catalina:      "7ecf43c5a6849a1c78c085c2ef59be1d2d872ab5a97b0327d882843a3c5ea9b4"
